@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+body{
+	margin: 0rem;
+	width: 100%;
+}
+
+/*For welcome header*/
+header{
+	background-color: #053361;
+	height: 4.5rem;
+}
+header div{
+	color: white;
+	font-family: 'Karla', sans-serif;
+	font-size: 1.7rem;
+	display: flex;
+}
+header p{
+	display: block;
+	width: 100%;
+	margin-top: 0.5rem;
+}
+header nav{
+	padding-top: 0.1rem;
+	width: 100%;
+}
+header .navi-logo-con{
+}
+header .navi-bar .navi-logo-img{
+	height: 2.5rem;
+	margin: auto;
+}
+.navi-bar input[type=text]{
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+	width: 15rem;
+	border-bottom-left-radius: 0.2rem;
+  	border-top-left-radius: 0.2rem;
+}
+ .navi-link{
+	margin: 1.3rem auto;
+	width: 5rem;
+}
+ .navi-link a{
+	color: white;
+	margin: auto;
+}
+ .navi-link a:hover {
+	text-decoration: none;
+}
+ .navi-link .navi-icon{
+	font-size: 1.4rem;
+}
+ .navi-link .navi-text{
+	margin: 0rem 0.5rem;
+	font-size: 1.25rem;
+}
+.navi-con-bar{
+	margin-top: 0.1rem;
+}
+.navi-d{
+	
+}
+.dropdown-menu{
+	width: 8rem;
+	min-width: 0rem;
+}
+.dropdown-menu a{
+	color: #053361;
+}
+.dropdown-item:hover{
+	background-color: transparent;
+	color: black;
+}
+.dropdown-item{
+	padding: 0.25rem 0.8rem;
+}
+footer div{
+	background-color: #053361;
+	color: white;
+	font-family: 'Karla', sans-serif;
+	font-size: 1.5rem;
+	display: flex;
+	
+}
+footer .footer{
+	height: 14rem;
+}
+footer .footer-logo{
+	background-color: #053361;
+	color: #053361;
+	margin: auto;
+	height: 4.3rem;
+	padding: 0.2rem 0.6rem;
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+}
+footer .footer-logo p{
+	margin: auto;
+	margin-left: 1rem;
+
+}
+footer .footer-logo img{
+	height: 3.3rem;
+	margin: auto;
+}
+footer .foot-con{
+	flex-direction: column;
+	margin: auto;
+	margin-top: 0.2rem;
+}
+footer .foot-con p{
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem
+}
+footer .foot-con a{
+	color: white;
+}
+footer .foot-con a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+footer .follow-us{
+	margin: auto;
+}
+/*for main content*/
+.content{
+	background-color: #F2F2F2;
+	width: 100%;
+	margin: 0;
+	min-height: 30.7rem;
+}
+
+/*for register form*/
+.register-form{
+	background-color: white;
+	border:  1px solid #dedfe0;
+	border-radius: 32px;
+	margin: auto;
+	margin-top: 3rem;
+	padding: 1rem 2rem;
+	margin-bottom: 3rem;
+}
+.content .logo-img img{
+	height: 4.8rem;
+	margin: auto;
+	display: block;
+}
+.form-heading{
+	margin-top: 1rem;
+}
+.form-heading h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+	color: #053361;
+	font-size: 1.6rem;
+}
+.form-content{
+	margin: auto;
+	margin-top: 2rem;
+}
+.form-content div{
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+.form-content p{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 1.2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.form-content input{
+	padding: 0.2rem 0.8rem;
+	font-size: 1rem;
+	height: 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.form-content .name input{
+	display: inline;
+	width: 45%;
+
+}
+.submit-button{
+	margin-top: 1rem;
+}
+.submit-button button{
+	background-color: #053361;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-size: 1.1rem;
+	padding: 0.3rem 0.8rem;
+	margin: auto;
+	display: flex;
+}
+.thank-con{
+	margin-top: 5rem;
+}
+.thank-content{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 1.5rem;
+	margin-top: 3rem;
+}
+.error{
+	position: fixed;
+}
+.error p{
+	color: red;
+	font-size: 0.9rem;
+	margin-top: -0.5rem;
+}
+.merror{
+	
+}
+.m-error p{
+	color: red;
+	font-size: 0.9rem;
+	margin-top: -0.5rem;
+}
+.log-in-form{
+	background-color: white;
+	border: 1px solid #dedfe0;
+	border-radius: 32px;
+	margin: auto;
+	margin-top: 3rem;
+	padding: 1rem 2rem;
+	margin-bottom: 3rem;
+}
+.log-in-form .form-content{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+/*main content for displaying cars*/
+.main{
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding: 0;
+}
+.car-con{
+	background-color: #FFFFFF;
+	width: 74%;
+	margin: 0 auto;
+}
+.car-con .car-header{
+	color: #053361;
+	padding-bottom: 0.5rem; 
+	padding-left:1rem;
+	border-bottom: 1px solid #053361;
+	border-top: 1px solid #053361;
+	margin:0.5rem 1.8rem;
+	margin-bottom:0;
+	font-family: 'Poppins', sans-serif;
+}
+.car-con .car-holder{
+	padding: 0 1.5rem;
+}
+.car-con .car-holder .car-card{
+	border: 2px solid #dedfe0;
+	margin: 1rem 0;
+	border-radius: 0.5rem;
+	display: block;
+}
+.car-con .car-holder .car-card:hover{
+	text-decoration: none;
+	color: #053361;
+}
+.car-con .car-holder .car-card .car-img{
+	width: 100%;
+	height: 10rem;
+	object-fit: cover;
+}
+.car-con .car-holder .car-card .car-text-holder{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	padding: 0.6rem 1rem;
+}
+.car-con .car-holder .car-card .car-text-holder hr{
+	/*border: 1px solid #dedfe0;*/
+	margin: 0.2rem;
+}
+.car-con .car-holder .car-card .car-text-holder .car-heading span{
+	display: block;
+	color: #054482;
+	font-size: 1rem;
+	line-height: 1;
+}
+
+.car-con .car-holder .car-card .car-text-holder .car-info{
+	color: #053361;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.car-con .car-holder .car-card .car-text-holder .car-info p{
+	margin-bottom: 0;
+}
+.seperator{
+	border-right: 2px solid #053361;
+}
+.sub-con{
+	background-color: #FFFFFF;
+	width:24%;
+	margin: 0 auto;
+}
+.sub-con .search-holder{
+	padding: 2rem 2rem;
+}
+.sub-con .search-holder .search-form .search-box .input-box{
+	width: 88%;
+	border: none;
+}
+.sub-con .search-holder .search-form .search-box .search-button{
+	background-color: white;
+	border:none;
+	color: #053361;
+}
+.sub-con .search-holder .search-form .search-box .search-button:hover{
+	color: #0973db;
+}
+.sub-con .search-holder .search-form .search-box{
+	border: 2px solid #053361;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 0.7rem;
+	border-radius: 6px;
+}
+.postcar-con{
+	margin: auto;
+}
+.sub-con .postcar-con .postcar-btn{
+	background-color: #053361;
+	color: #FFFFFF;
+	border: 1px solid #053361;
+	border-radius: 7px;
+	padding-bottom: 0.3rem;
+	margin: auto;
+	font-size: 1.2rem;
+}
+.sub-con .postcar-con .postcar-btn:hover{
+	background-color: #FFFFFF;
+	color: #053361;
+	text-decoration: none;
+}
+.sub-con .postcar-btn
+.sub-con .bids-con{
+	font-family: 'Poppins', sans-serif;
+}
+.sub-con .bids-con .bids-header{
+	font-size: 1.5rem;
+}
+.sub-con .bids-con .bids-holder{
+	margin: 1rem auto;
+}
+.sub-con .bids-con .bids-holder-con{
+	margin-top: 1rem;
+}
+.sub-con .bids-con .bids-holder-con hr{
+	margin: 0.2rem;
+}
+.sub-con .bids-con .bids-holder .sell-btn{
+	background-color: #053361;
+	color: #FFFFFF;
+	border-radius: 6px;
+	border: 1px solid #053361;
+}
+.sub-con .bids-con .bids-holder .sell-btn:hover{
+	background-color: #FFFFFF;
+	color: #053361;
+	text-decoration: none;
+}
+.sub-con .bids-con .bids-holder .bid-text .bidder{
+	color: #054482;
+}
+.n-btn{
+	background-color: #053361;
+	padding: 0.4rem 0.3rem;
+	color: #FFFFFF;
+	border-radius: 6px;
+	border: 1px solid #053361;
+}
+.n-btn:hover{
+	background-color: #FFFFFF;
+	color: #053361;
+	text-decoration: none;
+	cursor: pointer;
+}
+.m-btn{
+/*	margin-left: 8.9rem;*/
+	margin-top: 0.4rem;
+	background-color: #053361;
+	color: #FFFFFF;
+	font-size: 1.1rem;
+	padding: 0.1rem 2rem;
+	border-radius: 6px;
+	border: 1px solid #053361;
+}
+.m-btn:hover{
+	background-color: #FFFFFF;
+	color: #053361;
+	text-decoration: none;
+}
+.car-con .car-detail-holder{
+	border-left: 2px solid #053361;
+}
+.car-con .car-detail-holder .detail-img-holder{
+	margin: auto;
+}
+.car-con .car-detail-holder .detail-img-holder .detail-img{
+	width: 100%;
+	height: 35rem;
+	image-rendering: auto;
+	object-fit: cover;
+	border-bottom: 2px solid #053361;
+}
+.car-con .car-detail-holder .detail-info-holder{
+	padding: 1rem 3rem;
+}
+.car-con .car-detail-holder .detail-info-holder .detail-info{
+	margin-top: 2rem;
+}
+.car-con .car-detail-holder .detail-info-holder .detail-header h3{
+	display: inline;
+	border-bottom: 2px solid rgba(0,0,0,.1);
+}
+.user-table{
+	margin:3rem auto;
+	font-size: 1.2rem;
+	border-collapse: separate;
+}
+.user-table th, .user-table td{
+	border: 2px solid #053361;
+}
+
+.user-table .u-btn{
+	color: white;
+	border-radius: 4px;
+	font-size: 1rem;
+	padding: 0.05rem 0.1rem;
+	margin: 0.2rem 0.15rem;
+	display: block;
+	width: 4rem;
+
+}
+.user-table .u-btn:hover{
+	background-color: white;
+	text-decoration: none;
+}
+.user-table .u-btn-d{
+	background-color: red;
+	border: 2px solid red;
+}
+.user-table .u-btn-d:hover{
+	color: red;
+}
+.user-table .u-btn-b{
+	background-color: #053361;
+	border: 2px solid #053361;
+}
+.user-table .u-btn-b:hover{
+	color: #053361;
+}
+.e-content{
+	padding: 1rem 3rem;
+	font-family: 'Poppins', sans-serif;
+}
+
+.e-content .a-heading{
+	color: #053361;
+}
